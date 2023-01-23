@@ -90,6 +90,15 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #fff;
 }
+.sub-title2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.card-text{
+    font-size: 12px;
+}
 .tab-titles{
     display: flex;
     margin: 20px 0 40px -50px;

@@ -102,6 +102,34 @@
     <div id="portfolio">
        <div class="container">
             <h1 class="sub-title">My Work</h1>
+            <h5 class="sub-title2">Ecommerce Website</h5>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Work/dashboard page.PNG">
+                    <div class="layer">
+                        <h3>Dashboard page</h3>
+                        <p>Fast page loading to deliver an enhanced online shopping </p>
+                        <a href="https://myapp-787ce.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img  src="images/Work/login page.PNG">
+                    <div class="layer">
+                        <h3>Login form</h3>
+                        <p>Firebase Authentication log-in to our Website </p>
+                        <a href="https://myapp-787ce.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work/Register Page.PNG">
+                    <div class="layer">
+                        <h3>Sign in form</h3>
+                        <p>Register Page.</p>
+                        <a href="https://myapp-787ce.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h5 class="sub-title2">Crud Operations</h5>
             <div class="work-list">
                 <div class="work">
                     <img src="images/localhost_4200_login.png">
@@ -129,7 +157,7 @@
                 </div>
             </div>
             <a href="#" class="btn">See more</a>
-       </div> 
+       </div>
     </div>
     <!-- -----------Contact--------- -->
     <div id="contact">
@@ -190,7 +218,7 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwigzhlJgJXnLKH_qXPi6QZhPYhZ5bXxyviE6gWpzHok-g7AgAF4EsGGfqLowY2jM8HwQ/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-      
+
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
